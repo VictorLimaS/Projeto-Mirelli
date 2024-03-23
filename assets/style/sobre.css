@@ -1,0 +1,54 @@
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 100vh;
+    gap: 10rem;
+    padding-top: 8rem;
+}
+
+#sobre .bloco_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(188, 188, 188, 0.32);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+#sobre .bloco_img img {
+    width: 24rem;
+    border-radius: 5px;
+}
+
+#sobre .sobre_mim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
+    text-align: center;
+}
+
+#sobre .sobre_mim h2 {
+    font-size: 3rem;
+}
+
+#sobre .sobre_mim p {
+    font-size: 22px;
+}
+
+#sobre .sobre_mim button {
+    width: 17rem;
+    background-color: rgba(188, 188, 188, 0.32);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 60px 10px 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

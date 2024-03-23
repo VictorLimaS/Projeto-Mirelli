@@ -1,0 +1,30 @@
+#inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#inicio .logo {
+    width: 40rem;
+    height: 17rem;
+}
+
+.informação_inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 10rem;
+    background-color: white;
+    margin-top: -10rem;
+}
+
+.informação_inicio h2 {
+    font-size: 50px;
+    font-weight: 200;
+}
