@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5rem 5rem;
+    padding: 10rem 5rem 5rem 5rem;
     gap: 5rem;
 
     margin-top: 8rem 0;
@@ -41,7 +41,7 @@
 
 #contato .container .form-foto form textarea {
     width: 100%;
-    padding: 10px 0 80px 10px;
+    padding: 10px 0 60px 10px;
     border: none;
     border-radius: 5px;
     background-color: rgba(188, 188, 188, 0.32);

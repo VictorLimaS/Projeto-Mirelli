@@ -52,3 +52,46 @@ header nav ul li a {
 header nav ul li a:hover {
     border-bottom: 3px solid black;
 }
+
+/* HAMBUGUER */
+
+.menu-toggle {
+    width: 92%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+}
+
+.hamburger, .hamburger::before, .hamburger::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger::before, .hamburger::after {
+    content: '';
+    top: -8px;
+}
+
+.hamburger::after {
+    top: 8px;
+}
+
+.open .hamburger {
+    transform: rotate(47deg);
+}
+
+.open .hamburger::before {
+    transform: rotate(-90deg) translate(-8px, 0);
+}
+
+.open .hamburger::after {
+    transform: rotate(90deg) translate(-8px, 0);
+}

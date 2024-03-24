@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    background-color: #a5643fc0;
+    height: 300px;
+    margin-top: 5rem;
+}
+
+footer .logo img {
+    width: 10rem;
+}
+
+footer .redes ion-icon {
+    gap: 20px;
+    font-size: 3rem;
+    cursor: pointer; 
+}
+
+footer .direitos p{
+    font-size: 20px;
+}
+
+footer .redes .rede1 {
+    color: white;
+    font-size: 2rem;
+    padding: 7px;
+    background: green;
+    border-radius: 50%;
+}
+
+footer .redes .rede2 {
+    color: white;
+    font-size: 2rem;
+    padding: 7px;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 50%;
+}
+
+footer .redes .rede3 {
+    color: rgb(213, 9, 9);
+}

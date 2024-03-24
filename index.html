@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/style/sobre.css">
     <link rel="stylesheet" href="assets/style/projetos.css">
     <link rel="stylesheet" href="assets/style/contato.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/mediaquery.css">
     <title>MirelliOliveiraInteriores</title>
 </head>
 
@@ -25,6 +27,9 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
+        <div class="menu-toggle">
+            <div class="hamburger"></div>
+        </div>
     </header>
 
     <main>
@@ -82,23 +87,37 @@
                     <form>
                         <input type="text" id="nome" placeholder="Nome" name="nome" required>
                         <input type="text" id="sobrenome" placeholder="Sobrenome" name="sobrenome" required>
-                        <input type="email" id="email" placeholder="Email" name="email" required> 
+                        <input type="email" id="email" placeholder="Email" name="email" required>
                         <textarea id="mensagem" placeholder="Mensagem" name="mensagem" required></textarea>
-        
+
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
             <div class="foto">
-    
+
                 <img src="assets/img/contato.png" alt="Foto">
             </div>
         </section>
     </main>
 
     <footer>
-        <!-- Conteúdo do rodapé -->
+        <div class="logo">
+            <img src="assets/img/footer.png" alt="logo">
+        </div>
+        <div class="direitos">
+            <p>Mirelli Oliveira © 2024 - Todos os direitos reservado</p>
+            <p>Desenvolvido por Victor Lima 💙</p>
+        </div>
+        <div class="redes">
+            <ion-icon class="rede1" name="logo-whatsapp"></ion-icon>
+            <ion-icon class="rede2" name="logo-instagram"></ion-icon>
+            <ion-icon class="rede3" name="logo-pinterest"></ion-icon>
+        </div>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
