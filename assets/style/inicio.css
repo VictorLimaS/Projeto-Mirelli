@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/assets/img/fundo.jpg');
+    background-image: url('/assets/img/fundomain.JPG');
     background-size: cover;
     background-position: center;  
       
@@ -28,4 +28,24 @@
 .informação_inicio h2 {
     font-size: 50px;
     font-weight: 200;
+}
+
+/* ICON WHATS */
+
+.icone_whats {
+    top: 80%;
+    margin-left: 50px;
+    font-size: 40px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.icone_whats a {
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    list-style-type: none;
+    color: white;
+    background: green;
 }

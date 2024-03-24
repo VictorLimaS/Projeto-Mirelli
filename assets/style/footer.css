@@ -4,7 +4,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 10rem;
-    background-color: #a5643fc0;
+    background-color: rgba(188, 188, 188, 0.32);
     height: 300px;
     margin-top: 5rem;
 }
@@ -21,6 +21,7 @@ footer .redes ion-icon {
 
 footer .direitos p{
     font-size: 20px;
+    text-align: center;
 }
 
 footer .redes .rede1 {

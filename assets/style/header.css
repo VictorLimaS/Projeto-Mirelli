@@ -59,7 +59,7 @@ header nav ul li a:hover {
     width: 92%;
     height: 60px;
     position: fixed;
-    display: flex;
+    display: none;
     justify-content: end;
     align-items: center;
     z-index: 2;
