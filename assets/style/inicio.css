@@ -5,11 +5,12 @@
     align-items: center;
     background-image: url('/assets/img/fundo.jpg');
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: center;  
+      
 }
 
 #inicio .logo {
+    margin: 15rem 0;
     width: 40rem;
     height: 17rem;
 }
@@ -19,9 +20,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 10rem;
+    height: 6rem;
     background-color: white;
-    margin-top: -10rem;
+    margin-top: -5rem;
 }
 
 .informação_inicio h2 {

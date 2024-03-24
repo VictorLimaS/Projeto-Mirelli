@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="assets/style/inicio.css">
     <link rel="stylesheet" href="assets/style/sobre.css">
     <link rel="stylesheet" href="assets/style/projetos.css">
+    <link rel="stylesheet" href="assets/style/contato.css">
     <title>MirelliOliveiraInteriores</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/img/logo.jpg" alt="logo_mirelli" class="logo">
+        <img src="assets/img/logo.jpg" alt="logo_mirelli" class="logo" loading="eager">
         <nav>
             <ul>
                 <li><a href="#inicio">Início</a></li>
@@ -54,25 +55,44 @@
         </section>
 
         <section id="projetos">
-            <div class="titulo">
-                <h2>Meus Projetos</h2>
-            </div>
-            <div class="cards">
-                <!-- Cards superiores -->
-                <div class="card">Card 1</div>
-                <div class="card">Card 2</div>
-                <div class="card">Card 3</div>
-                <div class="card">Card 4</div>
-                <!-- Cards inferiores -->
-                <div class="card">Card 5</div>
-                <div class="card">Card 6</div>
-                <div class="card">Card 7</div>
-                <div class="card">Card 8</div>
+            <div class="content">
+                <div class="titulo">
+                    <h2>Meus Projetos</h2>
+                </div>
+                <div class="cards">
+                    <!-- Cards superiores -->
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <!-- Cards inferiores -->
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
             </div>
         </section>
 
         <section id="contato">
-            <!-- Conteúdo da seção Contato -->
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+                <div class="form-foto">
+                    <form>
+                        <input type="text" id="nome" placeholder="Nome" name="nome" required>
+                        <input type="text" id="sobrenome" placeholder="Sobrenome" name="sobrenome" required>
+                        <input type="email" id="email" placeholder="Email" name="email" required> 
+                        <textarea id="mensagem" placeholder="Mensagem" name="mensagem" required></textarea>
+        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="foto">
+    
+                <img src="assets/img/contato.png" alt="Foto">
+            </div>
         </section>
     </main>
 

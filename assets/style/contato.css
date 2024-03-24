@@ -1,0 +1,68 @@
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 5rem;
+    gap: 5rem;
+
+    margin-top: 8rem 0;
+}
+
+#contato .container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#contato .container h2 {
+    font-size: 3rem;   
+}
+
+#contato .container p {
+    font-size: 2rem;
+}
+
+#contato .container .form-foto form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    gap: 15px;
+}
+
+#contato .container .form-foto form input {
+    width: 100%;
+    padding: 12px 0 12px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(188, 188, 188, 0.32);
+    font-size: 15px;
+}
+
+#contato .container .form-foto form textarea {
+    width: 100%;
+    padding: 10px 0 80px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(188, 188, 188, 0.32);
+    font-size: 15px;
+    resize: none;
+}
+
+#contato .container .form-foto form button {
+    width: 17rem;
+    background-color: rgba(188, 188, 188, 0.32);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 50px 10px 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+#contato .foto img{
+    width: 25rem;
+    border-radius: 5px;
+}
