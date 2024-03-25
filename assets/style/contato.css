@@ -51,8 +51,6 @@
 
 #contato .container .form-foto form button {
     width: 17rem;
-    background-color: rgba(188, 188, 188, 0.32);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 10px 50px 10px 60px;
     font-size: 25px;

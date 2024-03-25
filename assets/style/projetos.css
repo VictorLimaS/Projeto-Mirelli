@@ -31,13 +31,53 @@
         text-align: center;
         border-radius: 5px;
         cursor: pointer;
-
-        background-image: url(/assets/img/fundo.jpg);
         background-size: cover;
         background-position: center;
+
+        position: relative;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    #projetos .cards .card1 {
+        background-image: url(/assets/img/fundo.jpg);
+    }
+
+    #projetos .cards .card2 {
+        background-image: url(/assets/img/foto1.JPG);
+
+    }
+
+    #projetos .cards .card3 {
+        background-image: url(/assets/img/foto2.jpg);
+    }
+
+    #projetos .cards .card4 {
+        background-image: url(/assets/img/foto3.JPG);
+    }
+
+    #projetos .cards .card5 {
+        background-image: url(/assets/img/foto4.JPEG);
+    }
+
+    #projetos .cards .card6 {
+        background-image: url(/assets/img/foto5.jpg);
+    }
+
+    #projetos .cards .card7 {
+        background-image: url(/assets/img/foto6.jpg);
+    }
+
+    #projetos .cards .card8 {
+        background-image: url(/assets/img/foto7.JPG);
     }
 
     footer {
         flex-direction: column;
         height: 500rem;
     }
+
+    

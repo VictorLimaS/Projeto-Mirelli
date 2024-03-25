@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/style/contato.css">
     <link rel="stylesheet" href="assets/style/footer.css">
     <link rel="stylesheet" href="assets/style/mediaquery.css">
+    <link rel="stylesheet" href="assets/style/carossel.css">
     <title>MirelliOliveiraInteriores</title>
 </head>
 
@@ -59,7 +60,7 @@
                     criando projetos que refletem sua personalidade e estilo, ao mesmo tempo em que consideram aspectos
                     práticos como funcionalidade, conforto e praticidade. Em resumo, o design de interiores vai além da
                     decoração, buscando criar espaços que sejam bonitos, funcionais e que proporcionem bem-estar.</p>
-                <button>Saber mais</button>
+                <button  class=" btn-three">Saber mais</button>
             </div>
         </section>
 
@@ -70,18 +71,30 @@
                 </div>
                 <div class="cards">
                     <!-- Cards superiores -->
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="card card1"></div>
+                    <div class="card card2"></div>
+                    <div class="card card3"></div>
+                    <div class="card card4"></div>
                     <!-- Cards inferiores -->
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="card card5"></div>
+                    <div class="card card6"></div>
+                    <div class="card card7"></div>
+                    <div class="card card8"></div>
                 </div>
             </div>
         </section>
+
+        <div id="imgs" class="imgs">
+            <div class="imgs_content">
+                <span class="close"><ion-icon name="close-outline"></ion-icon></span>
+                <div class="carrossel">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                    <span class="itens"></span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    
 
         <section id="contato">
             <div class="container">
@@ -94,7 +107,7 @@
                         <input type="email" id="email" placeholder="Email" name="email" required>
                         <textarea id="mensagem" placeholder="Mensagem" name="mensagem" required></textarea>
 
-                        <button type="submit">Enviar</button>
+                        <button class="btn-three " type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
