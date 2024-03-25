@@ -142,7 +142,7 @@
         cursor: pointer;
         z-index: 1;
     }
-    
+
     .icone_whats a {
         display: flex;
         padding: 8px;
@@ -157,6 +157,7 @@
         text-align: center;
         padding-bottom: 10rem;
     }
+
 }
 
 @media only screen and (max-width: 670px) {
