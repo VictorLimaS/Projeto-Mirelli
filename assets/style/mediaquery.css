@@ -71,6 +71,10 @@
         display: flex;
     }
 
+    .redes ion-icon {
+        margin-top: 20px;
+    }
+
 
     footer {
         padding: 0 20px 0 20px;

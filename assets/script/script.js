@@ -96,3 +96,20 @@ iconesLink.forEach(icon => {
     });
 });
   
+// APARECER O NAV
+
+menuBurguer.addEventListener('click', function () {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+    menuBurguer.classList.add('active');
+});
+
+navMenu.addEventListener('click', function () {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+    clicado = true
+    if (clicado) {
+        menuBurguer.classList.remove('active');
+        menuBurguer.classList.toggle('open');
+    }
+});
+
+
