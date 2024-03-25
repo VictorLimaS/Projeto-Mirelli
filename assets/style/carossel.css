@@ -15,7 +15,7 @@
 .imgs .imgs_content {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 85%;
     height: 85%;
     border-radius: 5px;
     background-color: rgba(177, 176, 176, 0.372);
@@ -36,7 +36,7 @@
 .imgs .imgs_content .carrossel {
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 80%;
     margin: 20px;
     border-radius: 5px;
     justify-content: center;
@@ -46,6 +46,7 @@
 .imgs .imgs_content .carrossel ion-icon {
     font-size: 3rem;
     cursor: pointer;
+    opacity: 50%;
 }
 
 .imgs .imgs_content .carrossel .itens {
