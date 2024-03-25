@@ -55,6 +55,7 @@
     padding: 10px 50px 10px 60px;
     font-size: 25px;
     font-weight: bold;
+    background-color: rgba(188, 188, 188, 0.148);
     border: none;
     cursor: pointer;
 }
