@@ -1,0 +1,15 @@
+.objs {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
