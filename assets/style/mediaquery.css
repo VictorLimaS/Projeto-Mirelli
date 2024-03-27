@@ -167,7 +167,8 @@
 @media only screen and (max-width: 670px) {
 
     .informação_inicio h2 {
-        font-size: 27px;
+        font-size: 30px;
+        padding: 10px 10rem 20px 10rem;
     }
 
     #contato {
@@ -184,8 +185,7 @@
 
     .informação_inicio h2 {
         font-size: 30px;
-        padding: 3px;
-        font-weight: bold;
+        padding: 10px 3rem 20px 3rem;
     }
 
     #sobre .bloco_img img {
