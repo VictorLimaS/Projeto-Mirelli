@@ -182,6 +182,12 @@
         height: 12rem;
     }
 
+    .informação_inicio h2 {
+        font-size: 30px;
+        padding: 3px;
+        font-weight: bold;
+    }
+
     #sobre .bloco_img img {
         width: 20rem;
     }
