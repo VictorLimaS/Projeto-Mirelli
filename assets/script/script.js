@@ -31,7 +31,7 @@ let imagensPorCard = [
     ['/assets/img_card/projeto2_1.JPG', '/assets/img_card/projeto2_2.JPG', '/assets/img_card/projeto2_3.JPG'],
     ['/assets/img_card/projeto3_1.JPG', '/assets/img_card/projeto3_2.JPG', '/assets/img_card/projeto3_3.JPG', '/assets/img_card/projeto3_4.JPG'],
     ['/assets/img_card/projeto4_1.JPG', '/assets/img_card/projeto4_2.JPG', '/assets/img_card/projeto4_3.JPG'],
-    ['img1-card6.jpg', 'img2-card6.jpg', 'img3-card6.jpg'],
+    ['/assets/img/foto5.jpg'],
     ['/assets/img_card/projeto6_1.JPG', '/assets/img_card/projeto6_2.JPG', '/assets/img_card/projeto6_3.JPG'],
     ['/assets/img_card/projeto7_1.JPG', '/assets/img_card/projeto7_2.JPG', '/assets/img_card/projeto7_3.JPG', '/assets/img_card/projeto7_4.JPG']
 ];
