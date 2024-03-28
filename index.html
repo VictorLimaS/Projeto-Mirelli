@@ -116,18 +116,17 @@
                 <h2>Entre em Contato</h2>
                 <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
                 <div class="form-foto">
-                    <form action="https://formsubmit.co/mirellioliveirainteriores@gmail.com" method="POST">
+                    <form action="https://api.staticforms.xyz/submit" method="POST">
                         <input type="text" id="nome" placeholder="Nome" name="nome" required>
                         <input type="text" id="sobrenome" placeholder="Sobrenome" name="sobrenome" required>
                         <input type="email" id="email" placeholder="Email" name="email" required>
                         <textarea id="mensagem" placeholder="Mensagem" name="mensagem" required></textarea>
 
-
-                        <input type="text" name="_honey" style="display:none">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="New submission!">
-                        <input type="hidden" name="_next" value="https://mirellioliveirainteriores.com.br/">
                         <button class="enviar btn-three " type="submit">Enviar</button>
+
+                        <input type="hidden" name="accessKey" value="">
+                        <input type="text" name="honeypot" style="display: none;">
+                        <input type="hidden" name="redirectTo" value="https://mirellioliveirainteriores.com.br">
                     </form>
                 </div>
             </div>
