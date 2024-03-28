@@ -44,7 +44,7 @@ function atualizarImagem(cardIndex) {
 
     let spanItens = document.querySelector('.itens');
     spanItens.style.backgroundImage = `url('${imagensDoCard[indiceAtual]}')`;
-}
+};
 
 function proximaImagem(cardIndex) {
     let imagensDoCard = imagensPorCard[cardIndex];
@@ -54,7 +54,7 @@ function proximaImagem(cardIndex) {
     indiceImagemAtual[cardIndex] = indiceAtual;
 
     atualizarImagem(cardIndex);
-}
+};
 
 function imagemAnterior(cardIndex) {
     let imagensDoCard = imagensPorCard[cardIndex];
@@ -64,7 +64,7 @@ function imagemAnterior(cardIndex) {
     indiceImagemAtual[cardIndex] = indiceAtual;
 
     atualizarImagem(cardIndex);
-}
+};
 
 document.querySelectorAll('.card').forEach((card, index) => {
     card.addEventListener('click', () => {
@@ -108,6 +108,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             }
         });
+    });
+});
+
+// LINKS SOBRE MIM
+
+const linkSobre = document.querySelectorAll('.saber_butoes button');
+const botaoSaberMais = document.querySelector('.mais');
+
+
+botaoSaberMais.addEventListener('click', () => {
+    document.querySelector('.saber_mais').style.display = 'flex';
+});
+
+linkSobre.forEach(botao => {
+    botao.addEventListener('click', () => {
+        if (botao.classList.contains('voltar')) {
+            document.querySelector('.saber_mais').style.display = 'none';
+        } else if (botao.classList.contains('portfolio')) {
+            window.open('https://mirellioliveirainteriores.my.canva.site/site-empresarial', '_blank');
+        }
     });
 });
 

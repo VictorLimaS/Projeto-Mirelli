@@ -75,6 +75,18 @@
         margin-top: 20px;
     }
 
+    .saber_mais .saber_content {
+        gap: 3rem;
+    }
+    
+    .saber_mais .saber_content h2 {
+        font-size: 4rem;
+    }
+    
+    .saber_mais .saber_content p {
+        font-size: 1rem;
+    }
+
 
     footer {
         padding: 0 20px 0 20px;
@@ -175,6 +187,24 @@
         padding: 10rem 1rem 5rem 1rem;
     }
 
+    .saber_mais .saber_content {
+        gap: 3rem;
+        width: 90%;
+    }
+    
+    .saber_mais .saber_content h2 {
+        font-size: 4rem;
+    }
+    
+    .saber_mais .saber_content p {
+        font-size: 1rem;
+    }
+
+    .saber_mais .saber_content .saber_butoes button {
+        padding: 10px 10px 10px 10px;
+        font-size: 18px;
+    }
+
 }
 
 @media only screen and (max-width: 510px) {
@@ -194,6 +224,30 @@
 
     #sobre .sobre_mim {
         width: 100%;
+    }
+
+    .saber_mais .saber_content {
+        gap: 3rem;
+        width: 90%;
+    }
+    
+    .saber_mais .saber_content h2 {
+        font-size: 2rem;
+    }
+    
+    .saber_mais .saber_content p {
+        font-size: .7rem;
+    }
+
+    .saber_mais .saber_content .saber_butoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .saber_mais .saber_content .saber_butoes button {
+        padding: 10px 0px 10px 0px;
+        font-size: 15px;
     }
 
     #projetos .cards .card {

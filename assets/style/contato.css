@@ -20,7 +20,9 @@
 }
 
 #contato .container p {
-    font-size: 2rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 22px;
+    padding-bottom: 20px;
 }
 
 #contato .container .form-foto form {
@@ -32,6 +34,7 @@
 
 #contato .container .form-foto form input {
     width: 100%;
+    font-family: "Roboto Slab", serif;
     padding: 12px 0 12px 10px;
     border: none;
     border-radius: 5px;
@@ -41,6 +44,7 @@
 
 #contato .container .form-foto form textarea {
     width: 100%;
+    font-family: "Roboto Slab", serif;
     padding: 10px 0 60px 10px;
     border: none;
     border-radius: 5px;
