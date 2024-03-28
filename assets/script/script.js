@@ -111,26 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// LINKS SOBRE MIM
-
-const linkSobre = document.querySelectorAll('.saber_butoes button');
-const botaoSaberMais = document.querySelector('.mais');
-
-
-botaoSaberMais.addEventListener('click', () => {
-    document.querySelector('.saber_mais').style.display = 'flex';
-});
-
-linkSobre.forEach(botao => {
-    botao.addEventListener('click', () => {
-        if (botao.classList.contains('voltar')) {
-            document.querySelector('.saber_mais').style.display = 'none';
-        } else if (botao.classList.contains('portfolio')) {
-            window.open('https://mirellioliveirainteriores.my.canva.site/site-empresarial', '_blank');
-        }
-    });
-});
-
 // LINKS
 
 const iconesLink = document.querySelectorAll('.rede1, .rede2, .rede3');
