@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', function () {
 // IMAGENS DO CARROSSEL
 
 let imagensPorCard = [
-    ['/assets/img_card/projeto8_1.JPG', '/assets/img_card/projeto8_2.JPG'],
+    ['/assets/img_card/projeto8_1.JPG', '/assets/img_card/projeto8_2.JPG', '/assets/img_card/projeto8_3.JPG', '/assets/img_card/projeto8_4.JPG', '/assets/img_card/projeto8_5.JPG', '/assets/img_card/projeto8_6.JPG'],
     ['/assets/img_card/projeto1_1.JPG', '/assets/img_card/projeto1_2.JPG', '/assets/img_card/projeto1_3.JPG'],
     ['/assets/img_card/projeto2_1.JPG', '/assets/img_card/projeto2_2.JPG', '/assets/img_card/projeto2_3.JPG'],
     ['/assets/img_card/projeto3_1.JPG', '/assets/img_card/projeto3_2.JPG', '/assets/img_card/projeto3_3.JPG', '/assets/img_card/projeto3_4.JPG'],
     ['/assets/img_card/projeto4_1.JPG', '/assets/img_card/projeto4_2.JPG', '/assets/img_card/projeto4_3.JPG'],
     ['/assets/img/foto5.jpg'],
     ['/assets/img_card/projeto6_1.JPG', '/assets/img_card/projeto6_2.JPG', '/assets/img_card/projeto6_3.JPG'],
-    ['/assets/img_card/projeto7_1.JPG', '/assets/img_card/projeto7_2.JPG', '/assets/img_card/projeto7_3.JPG', '/assets/img_card/projeto7_4.JPG']
+    ['/assets/img_card/projeto7_1.JPG', '/assets/img_card/projeto7_2.JPG']
 ];
 
 let indiceImagemAtual = [0, 0, 0, 0, 0, 0, 0, 0];
