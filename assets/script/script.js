@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // IMAGENS DO CARROSSEL
 
 let imagensPorCard = [
-    ['/assets/img_card/projeto8_1.JPG', '/assets/img_card/projeto8_2.JPG', '/assets/img_card/projeto8_3.JPG', '/assets/img_card/projeto8_4.JPG', '/assets/img_card/projeto8_5.JPG', '/assets/img_card/projeto8_6.JPG'],
+    ['/assets/img_card/projeto8_1.JPG', '/assets/img_card/projeto8_2.JPG', '/assets/img_card/projeto8_3.JPG', '/assets/img_card/projeto8_4.JPG', '/assets/img_card/projeto8_5.JPG', '/assets/img_card/  .JPG'],
     ['/assets/img_card/projeto1_1.JPG', '/assets/img_card/projeto1_2.JPG', '/assets/img_card/projeto1_3.JPG'],
     ['/assets/img_card/projeto2_1.JPG', '/assets/img_card/projeto2_2.JPG', '/assets/img_card/projeto2_3.JPG'],
     ['/assets/img_card/projeto3_1.JPG', '/assets/img_card/projeto3_2.JPG', '/assets/img_card/projeto3_3.JPG', '/assets/img_card/projeto3_4.JPG'],
