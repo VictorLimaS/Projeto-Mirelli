@@ -7,7 +7,7 @@ Com a simplicidade como minha aliada, desenvolvi uma landing page para a talento
 
 
 <p align="center">
-    <img alt="Mirelli Oliviera" src="/src/assets/img/readme.png" width="100%"
+    <img alt="Mirelli Oliviera" src="/assets/img/readme.png" width="100%"
 </p>
 
 ## 🛸 Tecnologias
