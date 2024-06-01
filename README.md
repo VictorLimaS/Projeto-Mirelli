@@ -1,5 +1,5 @@
 <br>
-<h1 align="center">Mercado</h1>
+<h1 align="center">Landing Page</h1>
 
 <p align="center">
 Com a simplicidade como minha aliada, desenvolvi uma landing page para a talentosa designer de interiores, Mirelli Oliveira. Utilizando meus conhecimentos básicos em tecnologia, quis demonstrar como é possível criar algo impactante mesmo com recursos limitados. Na página de apresentação, cada detalhe dos trabalhos de Mirelli é cuidadosamente destacado. Desde os projetos mais recentes até os mais antigos, cada foto revela a habilidade e o estilo único da profissional. Além de mostrar os projetos, a landing page também oferece um vislumbre sobre a própria Mirelli. Com uma breve descrição sobre sua jornada profissional e seu amor pelo design de interiores, os visitantes podem conhecer um pouco mais sobre a mente criativa por trás dos projetos. O design simples, mas eficaz, permite aos visitantes explorar mais sobre os projetos de Mirelli. Com apenas um clique, é possível ampliar e ver todas as fotos, mergulhando completamente no mundo de elegância e estilo que ela cria em cada espaço. Seja para quem busca inspiração ou para quem deseja contratar os serviços de Mirelli, a landing page proporciona uma experiência informativa e agradável. Com um toque de simplicidade, mostramos que é possível alcançar grandes resultados, mesmo com recursos mínimos.
@@ -7,7 +7,7 @@ Com a simplicidade como minha aliada, desenvolvi uma landing page para a talento
 
 
 <p align="center">
-    <img alt="projeto spotify" src="/src/assets/img/readme.png" width="100%"
+    <img alt="Mirelli Oliviera" src="/src/assets/img/readme.png" width="100%"
 </p>
 
 ## 🛸 Tecnologias
